@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bd2f827a-2e26-4684-988c-0d94195934fc" name="Changes" comment="인텔리제이 깃연동 테스트 1" />
+    <list default="true" id="bd2f827a-2e26-4684-988c-0d94195934fc" name="Changes" comment="인텔리제이 깃연동 테스트 3">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,6 +17,26 @@
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="board" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
   </component>
   <component name="Git.Merge.Settings">
     <option name="BRANCH" value="origin/feature/#4-usecase" />
@@ -46,6 +69,9 @@
   }
 }</component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\joj10\git\repository3\fc-board" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\joj10\Documents\github" />
     </key>
@@ -136,7 +162,21 @@
       <option name="project" value="LOCAL" />
       <updated>1665497268328</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="인텔리제이 깃연동 테스트 3">
+      <created>1665499461121</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1665499461121</updated>
+    </task>
+    <task id="LOCAL-00004" summary="인텔리제이 깃연동 테스트 3">
+      <created>1665499487171</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1665499487171</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -156,6 +196,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="start intellij" />
     <MESSAGE value="인텔리제이 깃연동 테스트 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="인텔리제이 깃연동 테스트 1" />
+    <MESSAGE value="인텔리제이 깃연동 테스트 2" />
+    <MESSAGE value="인텔리제이 깃연동 테스트 3" />
+    <option name="LAST_COMMIT_MESSAGE" value="인텔리제이 깃연동 테스트 3" />
   </component>
 </project>
