@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bd2f827a-2e26-4684-988c-0d94195934fc" name="Changes" comment="인텔리제이 깃연동 테스트 3">
+    <list default="true" id="bd2f827a-2e26-4684-988c-0d94195934fc" name="Changes" comment="last commit">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fastcampus/board/domain/Article.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fastcampus/board/domain/ArticleComment.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fastcampus/board/FcBoardApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fastcampus/board/FcBoardApplication.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,26 +44,36 @@
       </state>
     </system>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Merge.Settings">
     <option name="BRANCH" value="origin/feature/#4-usecase" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GithubDefaultAccount">
-    <option name="defaultAccountId" value="1c7b14b8-4fd5-4b90-8d68-c518faf6fbd4" />
-  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2FzUOSLk1QIo9R8hCNTfOzm05oS" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
@@ -81,7 +92,7 @@
       <recent name="C:\Users\joj10\Documents\github" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.FcBoardApplicationTests">
+  <component name="RunManager" selected="Gradle.FcBoardApplicationTests.contextLoads">
     <configuration name="FcBoardApplicationTests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -137,8 +148,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.FcBoardApplicationTests" />
         <item itemvalue="Gradle.FcBoardApplicationTests.contextLoads" />
+        <item itemvalue="Gradle.FcBoardApplicationTests" />
       </list>
     </recent_temporary>
   </component>
