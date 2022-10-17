@@ -6,10 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="bd2f827a-2e26-4684-988c-0d94195934fc" name="Changes" comment="last commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fastcampus/projectboard/repository/ArticleCommentRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fastcampus/projectboard/repository/ArticleCommentRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fastcampus/projectboard/repository/ArticleRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fastcampus/projectboard/repository/ArticleRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/fastcampus/projectboard/controller/DataRestTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/fastcampus/projectboard/controller/DataRestTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,7 +109,7 @@
     &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editing.templates&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;File.Encoding&quot;,
     &quot;spring.configuration.checksum&quot;: &quot;41d2fc3d168ea5d5adb07938571b894b&quot;
   },
   &quot;keyToStringList&quot;: {
@@ -145,7 +142,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.DataRestTest">
+  <component name="RunManager" selected="Gradle.Tests in 'board.test'">
     <configuration name="DataRestTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -238,7 +235,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="JPARepositoryTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="Tests in 'board.test'" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -250,8 +247,6 @@
         <option name="taskNames">
           <list>
             <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;com.fastcampus.projectboard.repository.JPARepositoryTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -270,11 +265,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.Tests in 'board.test'" />
         <item itemvalue="Gradle.DataRestTest" />
         <item itemvalue="Gradle.DataRestTest.givenNothing_whenRequestingArticle_thenReturnsArticleJsonResponse" />
         <item itemvalue="Gradle.DataRestTest.givenNothing_whenRequestingArticles_thenReturnsArticlesJsonResponse" />
         <item itemvalue="Gradle.DataRestTest.test" />
-        <item itemvalue="Gradle.JPARepositoryTest" />
       </list>
     </recent_temporary>
   </component>
@@ -292,7 +287,8 @@
       <workItem from="1665653845204" duration="1772000" />
       <workItem from="1665656171107" duration="1405000" />
       <workItem from="1665706941214" duration="15348000" />
-      <workItem from="1665969235595" duration="8706000" />
+      <workItem from="1665969235595" duration="10010000" />
+      <workItem from="1665989180723" duration="933000" />
     </task>
     <task id="LOCAL-00001" summary="start intellij">
       <created>1665496230547</created>
