@@ -5,14 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bd2f827a-2e26-4684-988c-0d94195934fc" name="Changes" comment="last commit">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fastcampus/projectboard/repository/ArticleCommentRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fastcampus/projectboard/repository/ArticleRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/document/project-board-erd.drawio" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/document/project-board-erd.drawio.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/document/제목 없는 다이어그램.drawio" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fastcampus/board/FcBoardApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/fastcampus/board/FcBoardApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fastcampus/projectboard/FcBoardApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fastcampus/projectboard/FcBoardApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fastcampus/projectboard/domain/Article.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fastcampus/projectboard/domain/Article.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fastcampus/projectboard/domain/ArticleComment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fastcampus/projectboard/domain/ArticleComment.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,12 +53,12 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="com.haulmont.jpb.NewClass" />
         <option value="com.haulmont.jpb.NewRecord" />
         <option value="com.haulmont.jpb.JpaRepository" />
         <option value="Interface" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -148,7 +144,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.JPARepositoryTest.givenTestData_whenDeleting_thenWorksFine">
+  <component name="RunManager" selected="Gradle.JPARepositoryTest">
     <configuration name="JPARepositoryTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -195,29 +191,6 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="JPARepositoryTest.givenTestData_whenSelecting_thenWorksFine" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;com.fastcampus.projectboard.repository.JPARepositoryTest.givenTestData_whenSelecting_thenWorksFine&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
     <configuration name="JPARepositoryTest.givenTestData_whenUpdating_thenWorksFine" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -241,7 +214,28 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="JPARepositoryTest.givenTestData_wheninserting_thenWorksFine" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="Tests in 'board.test'" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="Tests in 'com.fastcampus.projectboard'" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -254,7 +248,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;com.fastcampus.projectboard.repository.JPARepositoryTest.givenTestData_wheninserting_thenWorksFine&quot;" />
+            <option value="&quot;com.fastcampus.projectboard.*&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -273,11 +267,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.JPARepositoryTest.givenTestData_whenDeleting_thenWorksFine" />
         <item itemvalue="Gradle.JPARepositoryTest" />
+        <item itemvalue="Gradle.Tests in 'com.fastcampus.projectboard'" />
+        <item itemvalue="Gradle.Tests in 'board.test'" />
+        <item itemvalue="Gradle.JPARepositoryTest.givenTestData_whenDeleting_thenWorksFine" />
         <item itemvalue="Gradle.JPARepositoryTest.givenTestData_whenUpdating_thenWorksFine" />
-        <item itemvalue="Gradle.JPARepositoryTest.givenTestData_wheninserting_thenWorksFine" />
-        <item itemvalue="Gradle.JPARepositoryTest.givenTestData_whenSelecting_thenWorksFine" />
       </list>
     </recent_temporary>
   </component>
@@ -295,7 +289,7 @@
       <workItem from="1665653845204" duration="1772000" />
       <workItem from="1665656171107" duration="1405000" />
       <workItem from="1665706941214" duration="15348000" />
-      <workItem from="1665969235595" duration="2401000" />
+      <workItem from="1665969235595" duration="5424000" />
     </task>
     <task id="LOCAL-00001" summary="start intellij">
       <created>1665496230547</created>
