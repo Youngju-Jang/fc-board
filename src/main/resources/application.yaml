@@ -8,6 +8,9 @@ logging:
     org.hibernate.type.descriptor.sql.BasicBinder: trace
 
 spring:
+  devtools:
+    livereload:
+      enabled: false
   datasource:
     url: jdbc:mysql://localhost:3306/board
     username: hippo
@@ -28,6 +31,8 @@ spring:
   data.rest:
     base-path: /api
     detection-strategy: annotated
+  thymeleaf3:
+    decoupled-logic: true
 
 ---
 
