@@ -6,14 +6,19 @@
   <component name="ChangeListManager">
     <list default="true" id="bd2f827a-2e26-4684-988c-0d94195934fc" name="Changes" comment="last commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fastcampus/projectboard/FcBoardApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fastcampus/projectboard/FcBoardApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fastcampus/projectboard/repository/ArticleCommentRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fastcampus/projectboard/repository/ArticleCommentRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fastcampus/projectboard/repository/ArticleRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fastcampus/projectboard/repository/ArticleRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/articles/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/articles/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/fastcampus/projectboard/controller/ArticleControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/fastcampus/projectboard/controller/ArticleControllerTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+    <option name="PARALLEL_COMPILATION" value="false" />
   </component>
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
@@ -47,6 +52,17 @@
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="board" type="f1a62948:ProjectNode" />
+                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="board" type="f1a62948:ProjectNode" />
+                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
+                <item name="compileClasspath" type="62daadca:ExternalSystemViewDefaultContributor$DependencyScopeExternalSystemNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="board" type="f1a62948:ProjectNode" />
                 <item name="Run Configurations" type="7b0102dc:RunConfigurationsNode" />
               </path>
             </expand>
@@ -63,8 +79,9 @@
         <option value="com.haulmont.jpb.NewRecord" />
         <option value="com.haulmont.jpb.JpaRepository" />
         <option value="Interface" />
-        <option value="JUnit5 Test Class" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -103,6 +120,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
     "DtoCreateDialog.USE_JAVA_RECORDS_INITIAL_PROP_KEY": "true",
     "RequestMappingsPanelOrder0": "0",
     "RequestMappingsPanelOrder1": "1",
@@ -117,7 +135,7 @@
     "project.structure.last.edited": "SDKs",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.Color Scheme Font",
+    "settings.editor.selected.configurable": "project.propCompiler",
     "spring.configuration.checksum": "41d2fc3d168ea5d5adb07938571b894b"
   },
   "keyToStringList": {
@@ -134,12 +152,14 @@
       <recent name="C:\Users\joj10\git\repository3\fc-board" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\joj10\Documents\github\fc-board\src\main\resources\templates\fragment" />
       <recent name="C:\Users\joj10\Documents\github" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.fastcampus.projectboard.controller" />
       <recent name="com.fastcampus.projectboard.repository" />
     </key>
   </component>
@@ -150,8 +170,8 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.FcBoardApplication">
-    <configuration name="DataRestTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.fc-board [build]">
+    <configuration name="ArticleControllerTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -164,7 +184,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;com.fastcampus.projectboard.controller.DataRestTest&quot;" />
+            <option value="&quot;com.fastcampus.projectboard.controller.ArticleControllerTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -174,7 +194,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="DataRestTest.givenNothing_whenRequestingArticle_thenReturnsArticleJsonResponse" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="ArticleControllerTest.givenNothing_whenRequestingArticlesView_thenReturnsArticlesView" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -187,28 +207,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;com.fastcampus.projectboard.controller.DataRestTest.givenNothing_whenRequestingArticle_thenReturnsArticleJsonResponse&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="Tests in 'board.test'" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
+            <option value="&quot;com.fastcampus.projectboard.controller.ArticleControllerTest.givenNothing_whenRequestingArticlesView_thenReturnsArticlesView&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -260,6 +259,9 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/board/board.main/templates/articles/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
     <configuration name="FcBoardApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="board.main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.fastcampus.projectboard.FcBoardApplication" />
@@ -269,11 +271,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.fc-board [clean]" />
         <item itemvalue="Gradle.fc-board [build]" />
-        <item itemvalue="Gradle.Tests in 'board.test'" />
-        <item itemvalue="Gradle.DataRestTest" />
-        <item itemvalue="Gradle.DataRestTest.givenNothing_whenRequestingArticle_thenReturnsArticleJsonResponse" />
+        <item itemvalue="JavaScript Debug.index.html" />
+        <item itemvalue="Gradle.ArticleControllerTest.givenNothing_whenRequestingArticlesView_thenReturnsArticlesView" />
+        <item itemvalue="Gradle.ArticleControllerTest" />
+        <item itemvalue="Gradle.fc-board [clean]" />
       </list>
     </recent_temporary>
   </component>
@@ -294,7 +296,9 @@
       <workItem from="1665969235595" duration="10010000" />
       <workItem from="1665989180723" duration="4974000" />
       <workItem from="1665997121736" duration="3935000" />
-      <workItem from="1666008937714" duration="1425000" />
+      <workItem from="1666008937714" duration="16890000" />
+      <workItem from="1666140001572" duration="126000" />
+      <workItem from="1666572044560" duration="5966000" />
     </task>
     <task id="LOCAL-00001" summary="start intellij">
       <created>1665496230547</created>
