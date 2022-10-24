@@ -11,14 +11,6 @@ spring:
   devtools:
     livereload:
       enabled: false
-  #  thymeleaf:
-#    cache: false
-#    check-template-location: true
-#    prefix: classpath:templates/
-#    suffix: .html
-#    mode: HTML
-#    encoding: UTF-8
-#    content-type: text/html
   datasource:
     url: jdbc:mysql://localhost:3306/board
     username: hippo
@@ -39,6 +31,9 @@ spring:
   data.rest:
     base-path: /api
     detection-strategy: annotated
+
+  thymeleaf3:
+    decoupled-logic: true
 
 ---
 
