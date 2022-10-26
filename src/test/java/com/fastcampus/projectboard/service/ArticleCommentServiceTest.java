@@ -25,9 +25,7 @@ import static org.mockito.BDDMockito.*;
 @DisplayName("비즈니스 로직 - 댓글")
 @ExtendWith(MockitoExtension.class)
 class ArticleCommentServiceTest {
-        
         @InjectMocks private ArticleCommentService sut;
-        
         @Mock private ArticleRepository articleRepository;
         @Mock private ArticleCommentRepository articleCommentRepository;
         
