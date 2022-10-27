@@ -18,7 +18,6 @@ import static org.junit.jupiter.params.provider.Arguments.arguments;
 @SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.NONE, classes = PaginationService.class)
 class PaginationServiceTest {
         
-        
         private final PaginationService sut;
         
         public PaginationServiceTest(@Autowired PaginationService paginationService) {
