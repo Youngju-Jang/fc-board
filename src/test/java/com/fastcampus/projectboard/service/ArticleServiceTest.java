@@ -32,7 +32,6 @@ class ArticleServiceTest {
       @InjectMocks private ArticleService sut; // mock을 주입하는 대상
       
       @Mock private ArticleRepository articleRepository;
-      private UserAccountDto of;
       
       @DisplayName("검색어 없이 게시글을 검색하면, 게시글 페이지를 반환한다.")
       @Test
@@ -54,14 +53,14 @@ class ArticleServiceTest {
             SearchType searchType = SearchType.TITLE;
             String searchKeyword = "title";
             Pageable pageable = Pageable.ofSize(20);
-            given(articleRepository.findByTitle(searchKeyword, pageable)).willReturn(Page.empty());
+            given(articleRepository.findByTitleContaining(searchKeyword, pageable)).willReturn(Page.empty());
             
             // When
             Page<ArticleDto> articles = sut.searchArticles(searchType, searchKeyword, pageable);
             
             // Then
             assertThat(articles).isEmpty();
-            then(articleRepository).should().findByTitle(searchKeyword, pageable);
+            then(articleRepository).should().findByTitleContaining(searchKeyword, pageable);
       }
       
       @DisplayName("게시글을 조회하면, 게시글 반환한다.")
@@ -198,6 +197,17 @@ class ArticleServiceTest {
       }
       
       private UserAccountDto createUserAccountDto() {
-            return of;
+            return UserAccountDto.of(
+                      1L,
+                      "uno",
+                      "password",
+                      "uno@mail.com",
+                      "Uno",
+                      "This is memo",
+                      LocalDateTime.now(),
+                      "uno",
+                      LocalDateTime.now(),
+                      "uno"
+            );
       }
 }
